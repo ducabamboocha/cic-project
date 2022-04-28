@@ -97,3 +97,4 @@ if __name__ == '__main__':
     path = os.getcwd() + '/files'
     os.makedirs(path, exist_ok=True)
     asyncio.run(main())
+    print("DONE CRAWLER")
